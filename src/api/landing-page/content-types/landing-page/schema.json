@@ -16,9 +16,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "header": {
       "displayName": "header",
@@ -48,8 +46,7 @@
       "displayName": "sectionModules",
       "type": "component",
       "repeatable": false,
-      "component": "page.section-modules",
-      "required": true
+      "component": "page.section-modules"
     },
     "sectionAgenda": {
       "displayName": "sectionAgenda",

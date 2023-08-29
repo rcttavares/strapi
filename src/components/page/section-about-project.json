@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_about_projects",
   "info": {
     "displayName": "sectionAboutProject",
-    "icon": "information"
+    "icon": "",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,13 +16,13 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }
